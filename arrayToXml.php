@@ -53,6 +53,6 @@ $aData = array(
 );
 
 $xml = new SimpleXMLElement('<root/>');
-funcoes::arrayToXml($aData, $xml);
+arrayToXml($aData, $xml);
 
 echo $xml->asXML();
