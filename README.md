@@ -2,6 +2,7 @@
 Biblioteca para converter dados em Array para XML no PHP
 
 # EXEMPLO
+'''php
 $aData = array(
   "firstName" => "Leandro",
   "lastName" => "Pierin",
