@@ -56,3 +56,15 @@ $xml = new SimpleXMLElement('<root/>');
 arrayToXml($aData, $xml);
 
 echo $xml->asXML();
+
+// SAIDA
+/*
+<root>
+	<firstName>Leandro</firstName>
+	<lastName>Pierin</lastName>
+	<contact>
+		<email>leandro@pierin.com</email>
+		<phone>55 99999 9999</phone>
+	</contact>
+</root>
+*/
